@@ -1,0 +1,169 @@
+9       	 <--SHAPES
+10       	 <--LINES
+id1
+2       	 <--TYPE
+227       	 <--LEFT
+54       	 <--TOP
+70       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+START
+
+
+
+id2
+2       	 <--TYPE
+682       	 <--LEFT
+239       	 <--TOP
+70       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+STOP
+
+
+
+id3
+0       	 <--TYPE
+227       	 <--LEFT
+185       	 <--TOP
+70       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+DEFINITION
+a
+1
+
+id4
+92       	 <--TYPE
+436       	 <--LEFT
+233       	 <--TOP
+112       	 <--WIDTH
+50       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+IF_LESS
+a
+20
+
+id5
+0       	 <--TYPE
+210       	 <--LEFT
+245       	 <--TOP
+108       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+MODULE
+a
+b
+c
+id6
+91       	 <--TYPE
+178       	 <--LEFT
+119       	 <--TOP
+164       	 <--WIDTH
+40       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+INPUT
+Sayý giriniz:
+b
+
+id7
+91       	 <--TYPE
+147       	 <--LEFT
+447       	 <--TOP
+220       	 <--WIDTH
+40       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+OUTPUT
+Bölünebilen sayilar:
+a
+
+id8
+0       	 <--TYPE
+440       	 <--LEFT
+330       	 <--TOP
+92       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+ADD
+a
+1
+a
+id9
+92       	 <--TYPE
+209       	 <--LEFT
+309       	 <--TOP
+112       	 <--WIDTH
+50       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+IF_EQUAL
+c
+0
+
+  
+---- LINES ---- from,to ----
+id1,id6
+reserved 1
+
+id6,id3
+reserved 1
+
+id9,id7
+reserved 1
+EVET
+id7,id8
+reserved 1
+
+id9,id8
+reserved 1
+HAYIR
+id3,id5
+reserved 1
+
+id5,id9
+reserved 1
+
+id8,id4
+reserved 1
+
+id4,id5
+reserved 1
+EVET
+id4,id2
+reserved 1
+HAYIR

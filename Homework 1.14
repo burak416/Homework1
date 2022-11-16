@@ -1,0 +1,166 @@
+9       	 <--SHAPES
+9       	 <--LINES
+id1
+2       	 <--TYPE
+284       	 <--LEFT
+60       	 <--TOP
+70       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+START
+
+
+
+id2
+2       	 <--TYPE
+366       	 <--LEFT
+567       	 <--TOP
+70       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+STOP
+
+
+
+id3
+91       	 <--TYPE
+174       	 <--LEFT
+114       	 <--TOP
+180       	 <--WIDTH
+40       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+INPUT
+Bir sayý girin:
+a
+
+id4
+0       	 <--TYPE
+178       	 <--LEFT
+182       	 <--TOP
+70       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+DEFINITION
+b
+1
+
+id5
+0       	 <--TYPE
+145       	 <--LEFT
+317       	 <--TOP
+92       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+ADD
+b
+1
+b
+id6
+92       	 <--TYPE
+347       	 <--LEFT
+357       	 <--TOP
+112       	 <--WIDTH
+50       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+IF_LESS_EQUAL
+b
+a
+
+id7
+0       	 <--TYPE
+150       	 <--LEFT
+249       	 <--TOP
+100       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+DEFINITION
+çarpým
+1
+
+id8
+0       	 <--TYPE
+310       	 <--LEFT
+259       	 <--TOP
+188       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+MULTIPLY
+çarpým
+b
+çarpým
+id9
+91       	 <--TYPE
+272       	 <--LEFT
+469       	 <--TOP
+260       	 <--WIDTH
+40       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+OUTPUT
+Sayinin Faktoriyeli
+çarpým
+
+  
+---- LINES ---- from,to ----
+id1,id3
+reserved 1
+
+id3,id4
+reserved 1
+
+id4,id7
+reserved 1
+
+id7,id8
+reserved 1
+
+id8,id5
+reserved 1
+
+id5,id6
+reserved 1
+
+id6,id8
+reserved 1
+EVET
+id6,id9
+reserved 1
+HAYIR
+id9,id2
+reserved 1
+

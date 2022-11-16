@@ -1,0 +1,151 @@
+8       	 <--SHAPES
+9       	 <--LINES
+id1
+2       	 <--TYPE
+206       	 <--LEFT
+68       	 <--TOP
+70       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+START
+
+
+
+id2
+2       	 <--TYPE
+208       	 <--LEFT
+427       	 <--TOP
+70       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+STOP
+
+
+
+id3
+0       	 <--TYPE
+206       	 <--LEFT
+162       	 <--TOP
+70       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+DEFINITION
+a
+0
+
+id4
+92       	 <--TYPE
+185       	 <--LEFT
+272       	 <--TOP
+112       	 <--WIDTH
+50       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+IF_LESS_EQUAL
+a
+100
+
+id5
+0       	 <--TYPE
+320       	 <--LEFT
+158       	 <--TOP
+92       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+ADD
+a
+1
+a
+id6
+0       	 <--TYPE
+379       	 <--LEFT
+338       	 <--TOP
+108       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+MODULE
+a
+5
+b
+id8
+91       	 <--TYPE
+502       	 <--LEFT
+131       	 <--TOP
+180       	 <--WIDTH
+40       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+OUTPUT
+Sayi 5'in kati:
+a
+
+id9
+92       	 <--TYPE
+530       	 <--LEFT
+262       	 <--TOP
+112       	 <--WIDTH
+50       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+IF_EQUAL
+b
+0
+
+  
+---- LINES ---- from,to ----
+id1,id3
+reserved 1
+
+id4,id6
+reserved 1
+EVET
+id4,id2
+reserved 1
+HAYIR
+id5,id4
+reserved 1
+
+id3,id4
+reserved 1
+
+id6,id9
+reserved 1
+
+id9,id8
+reserved 1
+EVET
+id8,id5
+reserved 1
+
+id9,id5
+reserved 1
+HAYIR

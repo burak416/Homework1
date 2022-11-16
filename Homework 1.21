@@ -1,0 +1,202 @@
+11       	 <--SHAPES
+11       	 <--LINES
+id1
+2       	 <--TYPE
+241       	 <--LEFT
+87       	 <--TOP
+70       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+START
+
+
+
+id2
+2       	 <--TYPE
+1083       	 <--LEFT
+386       	 <--TOP
+70       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+STOP
+
+
+
+id3
+91       	 <--TYPE
+186       	 <--LEFT
+183       	 <--TOP
+180       	 <--WIDTH
+40       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+INPUT
+Bir sayý girin:
+a
+
+id4
+0       	 <--TYPE
+219       	 <--LEFT
+270       	 <--TOP
+116       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+MODULE
+a
+10
+b
+id5
+91       	 <--TYPE
+831       	 <--LEFT
+382       	 <--TOP
+156       	 <--WIDTH
+40       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+OUTPUT
+Son basamak:
+b
+
+id6
+0       	 <--TYPE
+231       	 <--LEFT
+414       	 <--TOP
+92       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+SUBTRACT
+a
+b
+a
+id7
+0       	 <--TYPE
+458       	 <--LEFT
+414       	 <--TOP
+100       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+DIVIDE
+a
+10
+a
+id8
+0       	 <--TYPE
+368       	 <--LEFT
+257       	 <--TOP
+116       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+MODULE
+a
+10
+c
+id9
+92       	 <--TYPE
+606       	 <--LEFT
+245       	 <--TOP
+112       	 <--WIDTH
+50       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+IF_LESS
+a
+10
+
+id10
+91       	 <--TYPE
+826       	 <--LEFT
+250       	 <--TOP
+164       	 <--WIDTH
+40       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+OUTPUT
+Ilk basamak: 
+a
+
+id11
+0       	 <--TYPE
+380       	 <--LEFT
+335       	 <--TOP
+92       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+SUBTRACT
+a
+c
+a
+  
+---- LINES ---- from,to ----
+id1,id3
+reserved 1
+
+id3,id4
+reserved 1
+
+id4,id6
+reserved 1
+
+id6,id7
+reserved 1
+
+id7,id9
+reserved 1
+
+id9,id10
+reserved 1
+EVET
+id9,id8
+reserved 1
+HAYIR
+id10,id5
+reserved 1
+
+id5,id2
+reserved 1
+
+id8,id11
+reserved 1
+
+id11,id7
+reserved 1
+

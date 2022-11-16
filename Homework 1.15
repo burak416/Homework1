@@ -1,0 +1,127 @@
+7       	 <--SHAPES
+6       	 <--LINES
+id1
+2       	 <--TYPE
+284       	 <--LEFT
+60       	 <--TOP
+70       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+START
+
+
+
+id2
+2       	 <--TYPE
+217       	 <--LEFT
+436       	 <--TOP
+70       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+STOP
+
+
+
+id3
+2       	 <--TYPE
+25       	 <--LEFT
+429       	 <--TOP
+70       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+START
+
+
+
+id4
+91       	 <--TYPE
+114       	 <--LEFT
+147       	 <--TOP
+228       	 <--WIDTH
+40       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+INPUT
+Bir doðal sayý girin:
+N
+
+id5
+92       	 <--TYPE
+195       	 <--LEFT
+270       	 <--TOP
+112       	 <--WIDTH
+50       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+IF_GREATER_EQUAL
+N
+1
+
+id6
+91       	 <--TYPE
+494       	 <--LEFT
+274       	 <--TOP
+90       	 <--WIDTH
+40       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+OUTPUT
+
+N
+
+id7
+0       	 <--TYPE
+348       	 <--LEFT
+206       	 <--TOP
+92       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+SUBTRACT
+N
+1
+N
+  
+---- LINES ---- from,to ----
+id5,id6
+reserved 1
+EVET
+id5,id2
+reserved 1
+HAYIR
+id1,id4
+reserved 1
+
+id4,id5
+reserved 1
+
+id6,id7
+reserved 1
+
+id7,id5
+reserved 1
+

@@ -1,0 +1,262 @@
+14       	 <--SHAPES
+16       	 <--LINES
+id1
+2       	 <--TYPE
+200       	 <--LEFT
+53       	 <--TOP
+70       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+START
+
+
+
+id2
+2       	 <--TYPE
+918       	 <--LEFT
+72       	 <--TOP
+70       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+STOP
+
+
+
+id3
+93       	 <--TYPE
+152       	 <--LEFT
+369       	 <--TOP
+164       	 <--WIDTH
+40       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+FUNCTION
+Rnd
+2000
+a
+id4
+91       	 <--TYPE
+145       	 <--LEFT
+123       	 <--TOP
+180       	 <--WIDTH
+40       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+INPUT
+Bir sayý girin:
+b
+
+id5
+0       	 <--TYPE
+181       	 <--LEFT
+484       	 <--TOP
+108       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+MODULE
+a
+2
+c
+id6
+92       	 <--TYPE
+456       	 <--LEFT
+493       	 <--TOP
+112       	 <--WIDTH
+50       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+IF_EQUAL
+c
+0
+
+id7
+91       	 <--TYPE
+594       	 <--LEFT
+156       	 <--TOP
+204       	 <--WIDTH
+40       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+OUTPUT
+Çift olan sayilar:
+a
+
+id8
+0       	 <--TYPE
+167       	 <--LEFT
+288       	 <--TOP
+132       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+DEFINITION
+Sayi
+0
+
+id9
+0       	 <--TYPE
+578       	 <--LEFT
+319       	 <--TOP
+236       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+ADD
+Sayi
+1
+Sayi
+id10
+92       	 <--TYPE
+352       	 <--LEFT
+136       	 <--TOP
+152       	 <--WIDTH
+50       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+IF_EQUAL
+Sayi
+b
+
+id11
+92       	 <--TYPE
+645       	 <--LEFT
+437       	 <--TOP
+112       	 <--WIDTH
+50       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+IF_LESS_EQUAL
+a
+1000
+
+id12
+0       	 <--TYPE
+184       	 <--LEFT
+209       	 <--TOP
+100       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+DEFINITION
+Toplam
+0
+
+id13
+0       	 <--TYPE
+609       	 <--LEFT
+238       	 <--TOP
+172       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+ADD
+Toplam
+a
+Toplam
+id14
+91       	 <--TYPE
+582       	 <--LEFT
+68       	 <--TOP
+244       	 <--WIDTH
+40       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+OUTPUT
+Sayilarin toplami:
+Toplam
+
+  
+---- LINES ---- from,to ----
+id1,id4
+reserved 1
+
+id5,id6
+reserved 1
+
+id7,id10
+reserved 1
+
+id10,id3
+reserved 1
+HAYIR
+id8,id3
+reserved 1
+
+id3,id5
+reserved 1
+
+id6,id3
+reserved 1
+HAYIR
+id6,id11
+reserved 1
+EVET
+id11,id3
+reserved 1
+EVET
+id11,id9
+reserved 1
+HAYIR
+id9,id13
+reserved 1
+
+id13,id7
+reserved 1
+
+id4,id12
+reserved 1
+
+id12,id8
+reserved 1
+
+id10,id14
+reserved 1
+EVET
+id14,id2
+reserved 1
+

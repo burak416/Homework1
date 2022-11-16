@@ -1,0 +1,205 @@
+11       	 <--SHAPES
+12       	 <--LINES
+id1
+2       	 <--TYPE
+266       	 <--LEFT
+65       	 <--TOP
+70       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+START
+
+
+
+id2
+2       	 <--TYPE
+732       	 <--LEFT
+290       	 <--TOP
+70       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+STOP
+
+
+
+id3
+91       	 <--TYPE
+195       	 <--LEFT
+124       	 <--TOP
+212       	 <--WIDTH
+40       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+INPUT
+Bir sayý girin:
+sayi1
+
+id4
+91       	 <--TYPE
+174       	 <--LEFT
+193       	 <--TOP
+252       	 <--WIDTH
+40       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+INPUT
+Bir sayý daha girin:
+sayi2
+
+id5
+0       	 <--TYPE
+254       	 <--LEFT
+259       	 <--TOP
+92       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+DEFINITION
+a
+sayi1
+
+id6
+0       	 <--TYPE
+254       	 <--LEFT
+314       	 <--TOP
+92       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+DEFINITION
+b
+sayi2
+
+id7
+0       	 <--TYPE
+563       	 <--LEFT
+388       	 <--TOP
+188       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+SUBTRACT
+sayi1
+sayi2
+sayi1
+id8
+92       	 <--TYPE
+229       	 <--LEFT
+379       	 <--TOP
+144       	 <--WIDTH
+50       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+IF_EQUAL
+sayi1
+sayi2
+
+id9
+91       	 <--TYPE
+402       	 <--LEFT
+284       	 <--TOP
+220       	 <--WIDTH
+40       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+OUTPUT
+Sayilarin ebobu:
+sayi2
+
+id11
+92       	 <--TYPE
+583       	 <--LEFT
+488       	 <--TOP
+144       	 <--WIDTH
+50       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+IF_GREATER
+sayi1
+sayi2
+
+id12
+0       	 <--TYPE
+207       	 <--LEFT
+498       	 <--TOP
+188       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+SUBTRACT
+sayi2
+sayi1
+sayi2
+  
+---- LINES ---- from,to ----
+id8,id9
+reserved 1
+EVET
+id8,id11
+reserved 1
+HAYIR
+id11,id7
+reserved 1
+EVET
+id11,id12
+reserved 1
+HAYIR
+id7,id8
+reserved 1
+
+id12,id8
+reserved 1
+
+id1,id3
+reserved 1
+
+id3,id4
+reserved 1
+
+id4,id5
+reserved 1
+
+id5,id6
+reserved 1
+
+id6,id8
+reserved 1
+
+id9,id2
+reserved 1
+
